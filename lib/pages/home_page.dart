@@ -1,4 +1,4 @@
-
+//halaman home
 import 'package:flutter/material.dart';
 import 'package:furniture_store_app/pages/our_profile_page.dart';
 import 'package:hive/hive.dart';
@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 import 'package:flutter/foundation.dart';
 import 'package:intl/intl.dart';
 import 'dart:async';
-import 'dart:ui'; // For BackdropFilter
+import 'dart:ui';
 import 'package:sensors_plus/sensors_plus.dart';
 import '../models/user_model.dart';
 import '../models/product_model.dart';
@@ -23,7 +23,7 @@ import '../pages/profile_page.dart';
 import '../pages/our_profile_page.dart';
 import '../pages/info_aplikasi_page.dart';
 import '../pages/notification_page.dart';
-import '..pages/add_product_page.dart';
+import '../pages/add_product_page.dart';
 
 
 enum SortOption {
