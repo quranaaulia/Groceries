@@ -1,14 +1,10 @@
-// lib/pages/checkout_page.dart
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
-
-// --- IMPORT UNTUK LBS (LOKASI) ---
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
-
 import '../pages/cart_page.dart';
 import 'success_page.dart';
 import '../models/order_model.dart';

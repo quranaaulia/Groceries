@@ -1,8 +1,7 @@
-// lib/pages/login_page.dart
+
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'dart:ui'; // Used for ImageFilter.blur
-
+import 'dart:ui';
 import '../pages/home_page.dart';
 import '../pages/register_page.dart';
 import '../models/user_model.dart';

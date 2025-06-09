@@ -1,7 +1,7 @@
-// lib/pages/register_page.dart
+
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'dart:ui'; // Required for ImageFilter.blur
+import 'dart:ui';
 
 import '../models/user_model.dart';
 import '../services/auth_service.dart';

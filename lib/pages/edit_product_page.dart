@@ -1,9 +1,7 @@
-// lib/pages/edit_product_page.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:ui'; // For BackdropFilter
-
 import '../models/product_model.dart';
 import '../providers/product_provider.dart';
 

@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import '../models/user_model.dart';
 import '../providers/product_provider.dart';
-import '../providers/order_provider.dart'; // <-- IMPORT ORDER PROVIDER
+import '../providers/order_provider.dart';
 import '../pages/detail_page.dart';
 import '../models/product_model.dart';
 import '../pages/manage_orders_page.dart';

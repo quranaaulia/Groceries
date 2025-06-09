@@ -1,4 +1,4 @@
-// lib/pages/submit_review_page.dart
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
@@ -24,7 +24,6 @@ class SubmitReviewPage extends StatefulWidget {
 }
 
 class _SubmitReviewPageState extends State<SubmitReviewPage> {
-  // Add color scheme to match notification page
   final Color primaryColor = const Color(0xFF2E7D32);
   final Color secondaryColor = const Color(0xFF388E3C);
   final Color accentColor = const Color(0xFFFF6B35);

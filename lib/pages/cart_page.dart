@@ -1,4 +1,3 @@
-// lib/pages/cart_page.dart
 import 'package:flutter/material.dart';
 import '../models/product_model.dart';
 import 'package:google_fonts/google_fonts.dart';

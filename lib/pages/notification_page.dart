@@ -4,7 +4,7 @@ import 'package:hive/hive.dart';
 import 'package:intl/intl.dart';
 import 'dart:ui';
 import '../models/notification_model.dart';
-import '../models/user_model.dart'; // Untuk mendapatkan currentUser
+import '../models/user_model.dart';
 import '../services/notification_service.dart';
 
 class NotificationPage extends StatefulWidget {

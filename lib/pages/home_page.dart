@@ -1,4 +1,4 @@
-// lib/pages/home_page.dart
+
 import 'package:flutter/material.dart';
 import 'package:furniture_store_app/pages/our_profile_page.dart';
 import 'package:hive/hive.dart';
@@ -9,19 +9,13 @@ import 'package:intl/intl.dart';
 import 'dart:async';
 import 'dart:ui'; // For BackdropFilter
 import 'package:sensors_plus/sensors_plus.dart';
-
-// Import Models
 import '../models/user_model.dart';
 import '../models/product_model.dart';
 import '../models/notification_model.dart';
 import '../pages/cart_page.dart';
-
-// Import Services & Providers
 import '../services/auth_service.dart';
 import '../services/notification_service.dart';
 import '../providers/product_provider.dart';
-
-// Import Pages
 import '../pages/login_page.dart';
 import '../pages/detail_page.dart';
 import '../pages/favorite_page.dart';
@@ -29,7 +23,8 @@ import '../pages/profile_page.dart';
 import '../pages/our_profile_page.dart';
 import '../pages/info_aplikasi_page.dart';
 import '../pages/notification_page.dart';
-import '../pages/add_product_page.dart';
+import '..pages/add_product_page.dart';
+
 
 enum SortOption {
   none,
