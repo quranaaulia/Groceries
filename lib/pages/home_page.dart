@@ -1,6 +1,6 @@
 // lib/pages/home_page.dart
 import 'package:flutter/material.dart';
-import 'package:furniture_store_app/pages/my_personal_profile_page.dart';
+import 'package:furniture_store_app/pages/our_profile_page.dart';
 import 'package:hive/hive.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -26,7 +26,7 @@ import '../pages/login_page.dart';
 import '../pages/detail_page.dart';
 import '../pages/favorite_page.dart';
 import '../pages/profile_page.dart';
-import '../pages/my_personal_profile_page.dart';
+import '../pages/our_profile_page.dart';
 import '../pages/info_aplikasi_page.dart';
 import '../pages/notification_page.dart';
 import '../pages/add_product_page.dart';
@@ -592,9 +592,9 @@ class _HomePageState extends State<HomePage> {
       ),
       Scaffold(
         backgroundColor: Colors.transparent,
-        body: MyPersonalProfilePage()
+        body: OurProfilePage()
       ),
-      Scaffold(backgroundColor: Colors.transparent, body: SaranKesanPage()),
+      Scaffold(backgroundColor: Colors.transparent, body: InfoAplikasiPage()),
       // Placeholder for logout, it's not a page but an action
       Container(),
     ];

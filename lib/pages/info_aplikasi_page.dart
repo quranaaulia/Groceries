@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:ui';
 
-class SaranKesanPage extends StatelessWidget {
-  const SaranKesanPage({super.key});
+class InfoAplikasiPage extends StatelessWidget {
+  const InfoAplikasiPage({super.key});
 
   // Enhanced color scheme
   final Color primaryColor = const Color(0xFF2E7D32);

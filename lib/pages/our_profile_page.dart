@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'dart:ui';
 
-class MyPersonalProfilePage extends StatelessWidget {
-  const MyPersonalProfilePage({super.key});
+class OurProfilePage extends StatelessWidget {
+  const OurProfilePage({super.key});
 
   // Enhanced color scheme
   final Color primaryColor = const Color(0xFF2E7D32);
